@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jyoti Bandgar | Frontend Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    
+  <h2 class="logo">Jyoti</h2>
+   <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Jyoti</span></h1>
+    <p>Junior Frontend Developer</p>
+    <div class="btn-group">
+      <button onclick="scrollToContact()">Hire Me</button>
+       <a href="images/resume .pdf" class="btn outline" download>Download Resume</a>
+
+    </div>
+  </div>
+  <img src="images/profile.jpeg" alt="Profile">
+</section>
+
+<section class="about" id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a fresher frontend developer with good knowledge of
+    HTML, CSS and JavaScript. I enjoy building responsive and
+    user-friendly websites and I am eager to learn new technologies.
+  </p>
+</section>
+
+<section id="experience" class="experience">
+  <h2>Experience</h2>
+
+  <div class="experience-box">
+    <h3>Trainee Web Developer (Intern)</h3>
+    <p class="company">Platominds Private Limited| Kolhapur, India</p>
+    <span class="duration">May 2024 – July 2024</span>
+
+    <ul>
+      <li>Developed and maintained responsive web pages using HTML, CSS, and JavaScript</li>
+      <li>Worked on real-time client projects and UI improvements</li>
+      <li>Ensured mobile-friendly and user-friendly layouts</li>
+    </ul>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill">HTML5</div>
+    <div class="skill">CSS3</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">Responsive Design</div>
+    <div class="skill">Basic GitHub</div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <div class="project-img">
+        <img src="images/portfolio.png" alt="Portfolio Project">
+      </div>
+      <h3>Personal Portfolio</h3>
+      <p>HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="project-card">
+      <div class="project-img">
+        <img src="images/construction.png" alt="Construction Project">
+      </div>
+      <h3>Construction Website</h3>
+      <p>Responsive Website</p>
+    </div>
+
+    <div class="project-card">
+      <div class="project-img">
+        <img src="images/project2.png" alt="Flower Shop Project">
+      </div>
+      <h3>Flowershop Management UI</h3>
+      <p>Frontend Design</p>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: jyotibandgar@email.com</p>
+  <p>GitHub: <a href="https://github.com/jyotibandgar11" target="_blank">github.com/jyotibandgar11</a></p>
+
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Jyoti Bandgar | Frontend Developer</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
