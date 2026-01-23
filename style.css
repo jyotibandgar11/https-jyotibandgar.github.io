@@ -22,7 +22,7 @@ header {
 }
 
 .logo {
-  color: #00ffd5;
+  color: #fff;
 }
 
 nav a {
@@ -47,7 +47,7 @@ nav a {
 }
 
 .hero-text span {
-  color: #00ffd5;
+  color: #0077b6;
 }
 
 .btn-group {
@@ -62,7 +62,7 @@ button, .btn-outline {
 }
 
 button {
-  background: #00ffd5;
+  background: #0077b6;
 }
 
 .btn-outline {
@@ -99,14 +99,14 @@ button {
 }
 
 .about span {
-  color: #00ffd5;
+  color: #0077b6;
 }
 
 .btn {
   display: inline-block;
   margin-top: 25px;
   padding: 12px 30px;
-  background: #00ffd5;;
+  background: #0077b6;
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
@@ -152,7 +152,7 @@ button {
 
 .education-card h3 {
   font-size: 20px;
-  color: #00d9a5; /* theme green */
+  color: #0077b6; /* theme green */
   margin-bottom: 8px;
 }
 
@@ -232,14 +232,14 @@ button {
   padding: 15px;
   border-radius: 12px;
   text-align: center;
-  height: 380px;              /* sab boxes same */
+  height: 380px;              
   display: flex;
   flex-direction: column;
 }
 
 .project-img {
-  height: 220px;              /* image area fixed */
-  overflow-y: auto;           /* sirf yahin scroll */
+  height: 220px;            
+  overflow-y: auto;           
   border-radius: 10px;
   border: 1px solid #ddd;
   margin-bottom: 10px;
@@ -247,7 +247,7 @@ button {
 
 .project-img img {
   width: 100%;
-  height: auto;               /* puri image */
+  height: auto;             
   display: block;
 }
 
@@ -278,6 +278,7 @@ footer {
   }
 
 }
+
 
 
 
